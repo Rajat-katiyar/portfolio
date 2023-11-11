@@ -1,0 +1,237 @@
+
+h1{
+    font-size: 50px;
+    background-color: black;
+    font-family: lato,sans-serif;
+    color: aliceblue;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    border-radius: 4px;
+    z-index: 1000;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    position: relative;   
+}
+#about{
+    margin-left: 315px;
+}
+.bio{
+    margin-left: 252px;
+}
+h2{
+    font-family: lato,sans-serif;
+   
+}
+.study,
+.study1{
+    margin: -6px 0px 25px -21px;
+    font-family: "Advent Pro", sans-serif;
+    font-size: 20px;
+    word-spacing: 0.1rem;
+}
+.study1{
+    margin: -6px 0px 25px -19px;
+    font-family: "Advent Pro", sans-serif;
+    font-size: 20px;
+    word-spacing: 0.1rem;
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+.paraagraph{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 60%;
+    line-height: 1.7em;
+    letter-spacing: 1px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.study1:hover{
+    color: #bdd239;
+}
+
+.number{
+    margin: -6px 0px 25px -21px;
+    font-family: "Advent Pro", sans-serif;
+}
+p{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 60%;
+    line-height: 1.7em;
+    letter-spacing: 1px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.aboutpic{
+    float: right;
+    overflow: hidden;
+    position: relative;
+    top: -64px;
+    object-fit: cover;
+    filter: brightness(50%);
+    
+}
+.button{
+    background-color: lightblue
+
+}
+.about{
+    width: 98vw;
+    color: #333;
+    text-align: center;
+    padding: 40px;
+}
+
+.number{
+    text-transform: uppercase;
+    list-style: none;
+   
+}
+h3{
+    margin: 5px;
+}
+
+#skills{
+    width: 500px;
+    background: #333;
+    /* margin: 60px auto; */
+     color: #fff;
+    padding: 20px; 
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+#skills li{
+    margin: 20px 0;
+    /* padding: 10px; */
+}
+
+.bar{
+    background: #353b48;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.bar:hover{
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgba(236, 0, 140, 1)0%, rgba(252, 103, 103, 1)100%);
+}
+
+.html{
+    width: 90%;
+    animation: html 3s;
+}
+
+.css{
+    width: 90%;
+    animation: css 3s;
+}
+
+.javascript{
+    width: 50%;
+    animation: javascript 3s;
+}
+
+.c{
+    width: 80%;
+    animation: c 3s;
+}
+
+.java{
+    width: 60%;
+    animation: java 3s;
+}
+
+.sql{
+    width: 50%;
+    animation: java 3s;
+}
+
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+
+@keyframes javascript{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+
+@keyframes c{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+
+@keyframes java{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+
+@keyframes sql{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+.port{
+    text-decoration: none; 
+    color: red; 
+    background-color: aqua; 
+    font-size: 25px; 
+    border-radius: 10%;
+    margin: 0px 0px 0px 350px;
+    overflow: hidden;
+    border: 2px solid black ;
+    
+}
+.port:hover{
+    color: #bdd239;
+}
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    font-size: 0.8rem;
+}
